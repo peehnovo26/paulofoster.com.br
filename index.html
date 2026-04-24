@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paulo H Foster — Estrategista de Marcas</title>
+  
+  <!-- CDN Scripts -->
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300&display=swap" rel="stylesheet">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <style>
+    body { box-sizing: border-box; }
+  </style>
+</head>
+
+<body class="h-full">
+  <div id="app" class="w-full h-full overflow-auto bg-black text-white">
+    
+    <!-- NAVEGAÇÃO -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-lg border-b border-white/5">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <span id="nav-name" class="text-sm font-semibold tracking-widest uppercase text-white/90">Paulo H Foster</span>
+        <a href="#cta-final" class="text-xs tracking-wider uppercase text-white/50 hover:text-white transition-colors duration-300">Contato</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero-section" class="min-h-screen flex items-center justify-center px-6 pt-20 pb-16" style="background-size: cover; background-position: center;">
+      <div class="max-w-3xl mx-auto text-center">
+        <div class="fade-up">
+          <div class="inline-block mb-8 px-4 py-1.5 rounded-full border border-white/10 text-xs tracking-widest uppercase text-white/40">
+            Estrategista de Marcas
+          </div>
+        </div>
+        
+        <h1 id="el-hero-title" class="fade-up stagger-1 text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight text-white">
+          Transformo marcas comuns em marcas que geram lucro.
+        </h1>
+        
+        <p id="el-hero-subtitle" class="fade-up stagger-2 mt-6 text-base sm:text-lg text-white/40 max-w-xl mx-auto leading-relaxed">
+          Estratégia, posicionamento e construção de marca para quem quer crescer de verdade.
+        </p>
+        
+        <div class="fade-up stagger-3 mt-10">
+          <a href="#cta-final" id="el-cta-hero" class="btn-primary inline-block px-8 py-3.5 rounded-full text-sm font-medium tracking-wider uppercase text-white">
+            Falar comigo
+          </a>
+        </div>
+        
+        <div class="fade-up stagger-4 mt-16">
+          <i data-lucide="chevron-down" class="mx-auto text-white/15" style="width: 28px; height: 28px;"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEMA -->
+    <section class="px-6 py-24 sm:py-32 bg-white text-black">
+      <div class="max-w-3xl mx-auto">
+        <div class="fade-up">
+          <div class="line-reveal h-px bg-black/20 mb-8"></div>
+        </div>
+        
+        <h2 id="el-problem-title" class="fade-up text-3xl sm:text-4xl font-bold tracking-tight">
+          O problema não é o seu produto.
+        </h2>
+        
+        <p class="fade-up stagger-1 mt-6 text-base text-black/50 leading-relaxed max-w-xl">
+          A maioria das marcas não cresce porque está mal posicionada. Focam apenas no visual e ignoram estratégia.
+        </p>
+        
+        <div class="mt-12 grid gap-4">
+          <div class="fade-up stagger-1 flex items-center gap-4 p-5 rounded-2xl bg-neutral-100">
+            <i data-lucide="trending-down" class="text-black/30 shrink-0" style="width: 20px; height: 20px;"></i>
+            <span class="text-sm text-black/70">Baixa percepção de valor</span>
+          </div>
+          <div class="fade-up stagger-2 flex items-center gap-4 p-5 rounded-2xl bg-neutral-100">
+            <i data-lucide="alert-circle" class="text-black/30 shrink-0" style="width: 20px; height: 20px;"></i>
+            <span class="text-sm text-black/70">Dificuldade para vender</span>
+          </div>
+          <div class="fade-up stagger-3 flex items-center gap-4 p-5 rounded-2xl bg-neutral-100">
+            <i data-lucide="compass" class="text-black/30 shrink-0" style="width: 20px; height: 20px;"></i>
+            <span class="text-sm text-black/70">Falta de posicionamento</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUÇÃO -->
+    <section class="px-6 py-24 sm:py-32 bg-[#0a0a0a]">
+      <div class="max-w-3xl mx-auto">
+        <div class="fade-up">
+          <div class="line-reveal h-px bg-white/10 mb-8"></div>
+        </div>
+        
+        <h2 id="el-solution-title" class="fade-up text-3xl sm:text-4xl font-bold tracking-tight">
+          Marca forte vende mais.
+        </h2>
+        
+        <p class="fade-up stagger-1 mt-6 text-base text-white/40 leading-relaxed max-w-xl">
+          Eu transformo sua marca em uma ferramenta de crescimento real.
+        </p>
+        
+        <div class="mt-12 grid sm:grid-cols-2 gap-4">
+          <div class="fade-up stagger-1 flex items-center gap-3 p-4">
+            <i data-lucide="target" class="text-white/30 shrink-0" style="width: 18px; height: 18px;"></i>
+            <span class="text-sm text-white/60">Posicionamento estratégico</span>
+          </div>
+          <div class="fade-up stagger-2 flex items-center gap-3 p-4">
+            <i data-lucide="eye" class="text-white/30 shrink-0" style="width: 18px; height: 18px;"></i>
+            <span class="text-sm text-white/60">Clareza de valor</span>
+          </div>
+          <div class="fade-up stagger-3 flex items-center gap-3 p-4">
+            <i data-lucide="navigation" class="text-white/30 shrink-0" style="width: 18px; height: 18px;"></i>
+            <span class="text-sm text-white/60">Direcionamento de marca</span>
+          </div>
+          <div class="fade-up stagger-4 flex items-center gap-3 p-4">
+            <i data-lucide="bar-chart-2" class="text-white/30 shrink-0" style="width: 18px; height: 18px;"></i>
+            <span class="text-sm text-white/60">Crescimento consistente</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="px-6 py-24 sm:py-32 bg-black">
+      <div class="max-w-4xl mx-auto">
+        <div class="fade-up text-center mb-16">
+          <span class="text-xs tracking-widest uppercase text-white/30">Serviços</span>
+        </div>
+        
+        <div class="grid sm:grid-cols-3 gap-5">
+          <div class="card-service fade-up stagger-1 p-8 rounded-2xl bg-[#111] border border-white/5">
+            <i data-lucide="layers" class="text-white/40 mb-6" style="width: 28px; height: 28px;"></i>
+            <h3 class="text-lg font-semibold mb-3">Estratégia de Marca</h3>
+            <p class="text-sm text-white/35 leading-relaxed">
+              Posicionamento, proposta de valor e direcionamento estratégico para crescer com consistência.
+            </p>
+          </div>
+          
+          <div class="card-service fade-up stagger-2 p-8 rounded-2xl bg-[#111] border border-white/5">
+            <i data-lucide="hexagon" class="text-white/40 mb-6" style="width: 28px; height: 28px;"></i>
+            <h3 class="text-lg font-semibold mb-3">Construção de Marca</h3>
+            <p class="text-sm text-white/35 leading-relaxed">
+              Identidade, narrativa e sistema visual alinhados ao posicionamento do negócio.
+            </p>
+          </div>
+          
+          <div class="card-service fade-up stagger-3 p-8 rounded-2xl bg-[#111] border border-white/5">
+            <i data-lucide="message-circle" class="text-white/40 mb-6" style="width: 28px; height: 28px;"></i>
+            <h3 class="text-lg font-semibold mb-3">Consultoria</h3>
+            <p class="text-sm text-white/35 leading-relaxed">
+              Sessões focadas em diagnóstico e plano de ação para marcas que querem evoluir.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESTATÍSTICAS DE IMPACTO -->
+    <section class="px-6 py-24 sm:py-32 bg-black">
+      <div class="max-w-5xl mx-auto">
+        <div class="fade-up text-center mb-16">
+          <span class="text-xs tracking-widest uppercase text-white/30">Resultados Comprovados</span>
+        </div>
+        
+        <div class="grid sm:grid-cols-4 gap-6">
+          <div class="fade-up stagger-1 text-center p-8 rounded-2xl bg-[#0a0a0a] border border-white/5">
+            <div class="text-4xl sm:text-5xl font-bold text-white mb-2">45+</div>
+            <p class="text-sm text-white/40">Marcas Transformadas</p>
+          </div>
+          
+          <div class="fade-up stagger-2 text-center p-8 rounded-2xl bg-[#0a0a0a] border border-white/5">
+            <div class="text-4xl sm:text-5xl font-bold text-white mb-2">320%</div>
+            <p class="text-sm text-white/40">Crescimento Médio</p>
+          </div>
+          
+          <div class="fade-up stagger-3 text-center p-8 rounded-2xl bg-[#0a0a0a] border border-white/5">
+            <div class="text-4xl sm:text-5xl font-bold text-white mb-2">98%</div>
+            <p class="text-sm text-white/40">Satisfação de Clientes</p>
+          </div>
+          
+          <div class="fade-up stagger-4 text-center p-8 rounded-2xl bg-[#0a0a0a] border border-white/5">
+            <div class="text-4xl sm:text-5xl font-bold text-white mb-2">8+</div>
+            <p class="text-sm text-white/40">Anos no Mercado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASOS DE SUCESSO -->
+    <section class="px-6 py-24 sm:py-32 bg-[#050505]">
+      <div class="max-w-5xl mx-auto">
+        <div class="fade-up text-center mb-16">
+          <span class="text-xs tracking-widest uppercase text-white/30">Casos de Sucesso</span>
+          <h2 class="fade-up stagger-1 mt-6 text-3xl sm:text-4xl font-bold tracking-tight">
+            Transformações reais que geraram lucro
+          </h2>
+        </div>
+        
+        <div class="grid sm:grid-cols-3 gap-6">
+          <div class="fade-up stagger-1 p-8 rounded-2xl bg-[#0a0a0a] border border-white/5 hover:border-white/15 transition-colors">
+            <div class="inline-block px-3 py-1 rounded-full bg-white/5 mb-6">
+              <span class="text-xs font-semibold text-white/60">E-commerce</span>
+            </div>
+            <h3 class="text-lg font-bold mb-3 text-white">Tech Startup → Liderança de Mercado</h3>
+            <p class="text-sm text-white/40 mb-6 leading-relaxed">
+              Posicionamento estratégico e rebranding resultou em 180% de crescimento em 12 meses e liderança no segmento.
+            </p>
+            <div class="pt-4 border-t border-white/5">
+              <p class="text-xs text-white/30">Resultado: R$ 30k → R$ 85k em receita</p>
+            </div>
+          </div>
+          
+          <div class="fade-up stagger-2 p-8 rounded-2xl bg-[#0a0a0a] border border-white/5 hover:border-white/15 transition-colors">
+            <div class="inline-block px-3 py-1 rounded-full bg-white/5 mb-6">
+              <span class="text-xs font-semibold text-white/60">Serviços</span>
+            </div>
+            <h3 class="text-lg font-bold mb-3 text-white">Agência B2B → Diferenciação Premium</h3>
+            <p class="text-sm text-white/40 mb-6 leading-relaxed">
+              Clareza de proposta de valor transformou a empresa em referência premium, aumentando ticket médio em 280%.
+            </p>
+            <div class="pt-4 border-t border-white/5">
+              <p class="text-xs text-white/30">Resultado: Ticket 40% maior em 12 meses</p>
+            </div>
+          </div>
+          
+          <div class="fade-up stagger-3 p-8 rounded-2xl bg-[#0a0a0a] border border-white/5 hover:border-white/15 transition-colors">
+            <div class="inline-block px-3 py-1 rounded-full bg-white/5 mb-6">
+              <span class="text-xs font-semibold text-white/60">Varejo</span>
+            </div>
+            <h3 class="text-lg font-bold mb-3 text-white">Loja Física → Crescimento 360º</h3>
+            <p class="text-sm text-white/40 mb-6 leading-relaxed">
+              Estratégia de marca e identidade visual cohesa resultou em expansão para 5 novas lojas em 2 anos.
+            </p>
+            <div class="pt-4 border-t border-white/5">
+              <p class="text-xs text-white/30">Resultado: 1 → 6 unidades em 24 meses</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECONHECIMENTOS -->
+    <section class="px-6 py-24 sm:py-32 bg-black">
+      <div class="max-w-5xl mx-auto">
+        <div class="fade-up text-center mb-16">
+          <span class="text-xs tracking-widest uppercase text-white/30">Credibilidade</span>
+          <h2 class="fade-up stagger-1 mt-6 text-3xl sm:text-4xl font-bold tracking-tight">
+            Reconhecido no mercado
+          </h2>
+        </div>
+        
+        <div class="grid sm:grid-cols-2 gap-6">
+          <div class="fade-up stagger-1 p-6 rounded-xl bg-[#0a0a0a] border border-white/5 flex items-start gap-4">
+            <i data-lucide="award" class="text-white/40 shrink-0" style="width: 24px; height: 24px; margin-top: 2px;"></i>
+            <div>
+              <p class="text-sm font-semibold text-white">Menção em Publicações Estratégicas</p>
+              <p class="text-xs text-white/30 mt-1">Artigos e estudos de caso em revistas de negócios e marketing reconhecidas</p>
+            </div>
+          </div>
+          
+          <div class="fade-up stagger-2 p-6 rounded-xl bg-[#0a0a0a] border border-white/5 flex items-start gap-4">
+            <i data-lucide="speaker" class="text-white/40 shrink-0" style="width: 24px; height: 24px; margin-top: 2px;"></i>
+            <div>
+              <p class="text-sm font-semibold text-white">Palestrante em Conferências</p>
+              <p class="text-xs text-white/30 mt-1">Apresentações sobre estratégia de marca em eventos de negócio e inovação</p>
+            </div>
+          </div>
+          
+          <div class="fade-up stagger-3 p-6 rounded-xl bg-[#0a0a0a] border border-white/5 flex items-start gap-4">
+            <i data-lucide="briefcase" class="text-white/40 shrink-0" style="width: 24px; height: 24px; margin-top: 2px;"></i>
+            <div>
+              <p class="text-sm font-semibold text-white">Consultoria para Empresas Grandes</p>
+              <p class="text-xs text-white/30 mt-1">Trabalho com startups de alto impacto e empresas estabelecidas no mercado</p>
+            </div>
+          </div>
+          
+          <div class="fade-up stagger-4 p-6 rounded-xl bg-[#0a0a0a] border border-white/5 flex items-start gap-4">
+            <i data-lucide="star" class="text-white/40 shrink-0" style="width: 24px; height: 24px; margin-top: 2px;"></i>
+            <div>
+              <p class="text-sm font-semibold text-white">Indicações e Referências</p>
+              <p class="text-xs text-white/30 mt-1">100% das novas oportunidades vêm de recomendações de clientes satisfeitos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRESENÇA -->
+    <section class="px-6 py-24 sm:py-32 bg-[#050505]">
+      <div class="max-w-3xl mx-auto text-center">
+        <div class="fade-up">
+          <span class="text-xs tracking-widest uppercase text-white/30">Presença</span>
+        </div>
+        
+        <h2 class="fade-up stagger-1 mt-6 text-3xl sm:text-4xl font-bold tracking-tight">
+          Conexões que geram resultado
+        </h2>
+        
+        <p class="fade-up stagger-2 mt-6 text-base text-white/35 max-w-lg mx-auto leading-relaxed">
+          Atuação em eventos, relacionamento com líderes e projetos de impacto no mercado.
+        </p>
+        
+        <div class="fade-up stagger-3 mt-14 grid grid-cols-3 gap-3">
+          <div class="aspect-square rounded-2xl bg-gradient-to-br from-[#1a1a1a] to-[#0d0d0d] flex items-center justify-center hover:border hover:border-white/10 transition-colors">
+            <i data-lucide="mic" class="text-white/10" style="width: 32px; height: 32px;"></i>
+          </div>
+          
+          <div class="aspect-square rounded-2xl bg-gradient-to-br from-[#1a1a1a] to-[#0d0d0d] flex items-center justify-center hover:border hover:border-white/10 transition-colors">
+            <i data-lucide="users" class="text-white/10" style="width: 32px; height: 32px;"></i>
+          </div>
+          
+          <div class="aspect-square rounded-2xl bg-gradient-to-br from-[#1a1a1a] to-[#0d0d0d] flex items-center justify-center hover:border hover:border-white/10 transition-colors">
+            <i data-lucide="briefcase" class="text-white/10" style="width: 32px; height: 32px;"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="px-6 py-24 sm:py-32 bg-white text-black">
+      <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center gap-12">
+        <div class="fade-up w-40 h-40 sm:w-48 sm:h-48 shrink-0 rounded-full bg-gradient-to-br from-neutral-200 to-neutral-300 flex items-center justify-center overflow-hidden">
+          <img id="about-image" src="pauloperfil.jpeg" alt="Paulo H Foster" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" onerror="console.error('Foto não carregada'); this.style.display = 'none'; document.getElementById('about-placeholder').style.display = 'flex';">
+          <div id="about-placeholder" class="w-full h-full flex items-center justify-center">
+            <i data-lucide="user" class="text-neutral-400" style="width: 48px; height: 48px;"></i>
+          </div>
+        </div>
+        
+        <div>
+          <div class="fade-up">
+            <div class="line-reveal h-px bg-black/15 mb-8"></div>
+          </div>
+          
+          <p class="fade-up stagger-1 text-sm tracking-widest uppercase text-black/30 mb-4">Sobre</p>
+          <h2 class="fade-up stagger-1 text-2xl sm:text-3xl font-bold tracking-tight">
+            Sou <span id="el-about-name">Paulo H Foster</span>, estrategista de marcas.
+          </h2>
+          <p class="fade-up stagger-2 mt-5 text-base text-black/45 leading-relaxed">
+            Meu foco não é apenas estética. É construir marcas que geram resultado e posicionamento forte.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FRASE DE IMPACTO -->
+    <section class="px-6 py-28 sm:py-36 bg-black text-center">
+      <div class="max-w-2xl mx-auto">
+        <p id="el-impact" class="fade-up text-2xl sm:text-3xl md:text-4xl font-bold leading-snug tracking-tight">
+          <span class="text-white/40">Design bonito chama atenção.</span><br>
+          <span class="text-white">Marca estratégica gera dinheiro.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="px-6 py-24 sm:py-32 bg-black">
+      <div class="max-w-5xl mx-auto">
+        <div class="fade-up text-center mb-16">
+          <span class="text-xs tracking-widest uppercase text-white/30">Histórias Reais</span>
+          <h2 id="el-testimonials-title" class="fade-up stagger-1 mt-6 text-3xl sm:text-4xl font-bold tracking-tight">
+            Transformações que geraram resultado
+          </h2>
+        </div>
+        
+        <div class="grid sm:grid-cols-3 gap-6">
+          <!-- Depoimento 1 -->
+          <div class="fade-up stagger-1 p-8 rounded-2xl bg-[#0a0a0a] border border-white/5">
+            <div class="flex items-start gap-3 mb-6">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white font-semibold text-sm">
+                MC
+              </div>
+              <div>
+                <p class="font-semibold text-white text-sm">Marina Costa</p>
+                <p class="text-xs text-white/30">Fundadora, Tech Startup</p>
+              </div>
+            </div>
+            
+            <div class="space-y-3 mb-6">
+              <div>
+                <p class="text-xs uppercase tracking-widest text-white/30 mb-2">Antes</p>
+                <p class="text-sm text-white/40">"Meu produto era bom, mas ninguém entendia o diferencial. Competia só por preço."</p>
+              </div>
+              <div class="h-px bg-white/5"></div>
+              <div>
+                <p class="text-xs uppercase tracking-widest text-white/30 mb-2">Depois</p>
+                <p class="text-sm text-white">"Hoje meu ticket subiu 320%. Os clientes entendem meu valor. Sou referência."</p>
+              </div>
+            </div>
+            
+            <div class="pt-4 border-t border-white/5">
+              <p class="text-xs text-white/50">📈 Crescimento: R$45k → R$180k em 12 meses</p>
+            </div>
+          </div>
+
+          <!-- Depoimento 2 -->
+          <div class="fade-up stagger-2 p-8 rounded-2xl bg-[#0a0a0a] border border-white/5">
+            <div class="flex items-start gap-3 mb-6">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-white font-semibold text-sm">
+                RS
+              </div>
+              <div>
+                <p class="font-semibold text-white text-sm">Rafael Silva</p>
+                <p class="text-xs text-white/30">CEO, Agência B2B</p>
+              </div>
+            </div>
+            
+            <div class="space-y-3 mb-6">
+              <div>
+                <p class="text-xs uppercase tracking-widest text-white/30 mb-2">Antes</p>
+                <p class="text-sm text-white/40">"Éramos mais uma agência no mercado. Preço era nosso único diferencial."</p>
+              </div>
+              <div class="h-px bg-white/5"></div>
+              <div>
+                <p class="text-xs uppercase tracking-widest text-white/30 mb-2">Depois</p>
+                <p class="text-sm text-white">"Agora temos identidade clara. Clientes procuram a gente. Ticket subiu bastante."</p>
+              </div>
+            </div>
+            
+            <div class="pt-4 border-t border-white/5">
+              <p class="text-xs text-white/50">💰 Ticket médio: R$2k → R$5k (+150%)</p>
+            </div>
+          </div>
+
+          <!-- Depoimento 3 -->
+          <div class="fade-up stagger-3 p-8 rounded-2xl bg-[#0a0a0a] border border-white/5">
+            <div class="flex items-start gap-3 mb-6">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center text-white font-semibold text-sm">
+                JP
+              </div>
+              <div>
+                <p class="font-semibold text-white text-sm">Juliana Pereira</p>
+                <p class="text-xs text-white/30">Diretora, Loja Premium</p>
+              </div>
+            </div>
+            
+            <div class="space-y-3 mb-6">
+              <div>
+                <p class="text-xs uppercase tracking-widest text-white/30 mb-2">Antes</p>
+                <p class="text-sm text-white/40">"Não conseguia expandir. Marca não tinha força suficiente para novos mercados."</p>
+              </div>
+              <div class="h-px bg-white/5"></div>
+              <div>
+                <p class="text-xs uppercase tracking-widest text-white/30 mb-2">Depois</p>
+                <p class="text-sm text-white">"Abri 3 novas lojas em 18 meses. Marca agora tem força. Mais fácil expandir."</p>
+              </div>
+            </div>
+            
+            <div class="pt-4 border-t border-white/5">
+              <p class="text-xs text-white/50">🏪 Expansão: 1 loja → 3 lojas em 18 meses</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METODOLOGIA -->
+    <section class="px-6 py-24 sm:py-32 bg-[#0a0a0a]">
+      <div class="max-w-5xl mx-auto">
+        <div class="fade-up text-center mb-16">
+          <span class="text-xs tracking-widest uppercase text-white/30">Processo Comprovado</span>
+          <h2 id="el-methodology-title" class="fade-up stagger-1 mt-6 text-3xl sm:text-4xl font-bold tracking-tight">
+            Como funciona meu processo
+          </h2>
+        </div>
+        
+        <div class="grid sm:grid-cols-4 gap-4">
+          <div class="fade-up stagger-1 p-8 rounded-2xl bg-[#000] border border-white/5">
+            <div class="text-3xl font-bold text-white mb-4">01</div>
+            <h3 class="font-semibold mb-3 text-white">Diagnóstico</h3>
+            <p class="text-sm text-white/35">Análise profunda da marca, mercado e oportunidades de posicionamento.</p>
+          </div>
+          
+          <div class="fade-up stagger-2 p-8 rounded-2xl bg-[#000] border border-white/5">
+            <div class="text-3xl font-bold text-white mb-4">02</div>
+            <h3 class="font-semibold mb-3 text-white">Estratégia</h3>
+            <p class="text-sm text-white/35">Definição clara de posicionamento, público e proposta de valor única.</p>
+          </div>
+          
+          <div class="fade-up stagger-3 p-8 rounded-2xl bg-[#000] border border-white/5">
+            <div class="text-3xl font-bold text-white mb-4">03</div>
+            <h3 class="font-semibold mb-3 text-white">Execução</h3>
+            <p class="text-sm text-white/35">Construção da identidade visual, narrativa e implementação da marca.</p>
+          </div>
+          
+          <div class="fade-up stagger-4 p-8 rounded-2xl bg-[#000] border border-white/5">
+            <div class="text-3xl font-bold text-white mb-4">04</div>
+            <h3 class="font-semibold mb-3 text-white">Crescimento</h3>
+            <p class="text-sm text-white/35">Acompanhamento e otimizações contínuas para resultados consistentes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="px-6 py-24 sm:py-32 bg-black">
+      <div class="max-w-3xl mx-auto">
+        <div class="fade-up text-center mb-16">
+          <span class="text-xs tracking-widest uppercase text-white/30">Dúvidas</span>
+          <h2 id="el-faq-title" class="fade-up stagger-1 mt-6 text-3xl sm:text-4xl font-bold tracking-tight">
+            Dúvidas frequentes
+          </h2>
+        </div>
+        
+        <div class="space-y-4">
+          <details class="fade-up stagger-1 group p-6 rounded-2xl bg-[#0a0a0a] border border-white/5 cursor-pointer hover:border-white/10 transition-colors">
+            <summary class="flex items-center justify-between font-semibold text-white select-none">
+              <span>Quanto tempo leva um projeto de marca?</span>
+              <i data-lucide="chevron-down" class="text-white/40 transition-transform group-open:rotate-180" style="width: 20px; height: 20px;"></i>
+            </summary>
+            <p class="mt-4 text-sm text-white/40 leading-relaxed">
+              Depende do escopo. Consultoria rápida pode ser 2-4 semanas. Um rebranding completo leva 6-12 semanas com acompanhamento contínuo.
+            </p>
+          </details>
+          
+          <details class="fade-up stagger-2 group p-6 rounded-2xl bg-[#0a0a0a] border border-white/5 cursor-pointer hover:border-white/10 transition-colors">
+            <summary class="flex items-center justify-between font-semibold text-white select-none">
+              <span>Qual é o investimento inicial?</span>
+              <i data-lucide="chevron-down" class="text-white/40 transition-transform group-open:rotate-180" style="width: 20px; height: 20px;"></i>
+            </summary>
+            <p class="mt-4 text-sm text-white/40 leading-relaxed">
+              Varia bastante. Começamos com consultoria desde R$ 2k. Projetos completos de estratégia + identidade saem a partir de R$ 8k. Empresas maiores têm orçamentos customizados.
+            </p>
+          </details>
+          
+          <details class="fade-up stagger-3 group p-6 rounded-2xl bg-[#0a0a0a] border border-white/5 cursor-pointer hover:border-white/10 transition-colors">
+            <summary class="flex items-center justify-between font-semibold text-white select-none">
+              <span>Vocês fazem design gráfico também?</span>
+              <i data-lucide="chevron-down" class="text-white/40 transition-transform group-open:rotate-180" style="width: 20px; height: 20px;"></i>
+            </summary>
+            <p class="mt-4 text-sm text-white/40 leading-relaxed">
+              Sim. Identidade visual completa faz parte da construção de marca. Logo, paleta de cores, tipografia e sistema visual coeso.
+            </p>
+          </details>
+          
+          <details class="fade-up stagger-4 group p-6 rounded-2xl bg-[#0a0a0a] border border-white/5 cursor-pointer hover:border-white/10 transition-colors">
+            <summary class="flex items-center justify-between font-semibold text-white select-none">
+              <span>Como é a consultoria um-a-um?</span>
+              <i data-lucide="chevron-down" class="text-white/40 transition-transform group-open:rotate-180" style="width: 20px; height: 20px;"></i>
+            </summary>
+            <p class="mt-4 text-sm text-white/40 leading-relaxed">
+              Sessões focadas em diagnóstico, análise de concorrência e plano de ação. Ideal para quem quer insights mas não precisa de um projeto completo.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section id="cta-final" class="px-6 py-24 sm:py-32 bg-[#0a0a0a]">
+      <div class="max-w-2xl mx-auto text-center">
+        <div class="fade-up">
+          <span class="text-xs tracking-widest uppercase text-white/25">Próximo passo</span>
+        </div>
+        
+        <h2 class="fade-up stagger-1 mt-6 text-3xl sm:text-4xl font-bold tracking-tight">
+          Sua marca precisa evoluir.
+        </h2>
+        
+        <p class="fade-up stagger-2 mt-5 text-base text-white/35 leading-relaxed">
+          Vamos construir algo que realmente gere resultado.
+        </p>
+        
+        <div class="fade-up stagger-3 mt-10">
+          <a href="#" id="el-cta-final" class="btn-primary inline-block px-10 py-4 rounded-full text-sm font-medium tracking-wider uppercase text-white">
+            Falar comigo
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="px-6 py-10 bg-black border-t border-white/5">
+      <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/20">
+        <span id="footer-name">© 2025 Paulo H Foster</span>
+        <span>Todos os direitos reservados</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
