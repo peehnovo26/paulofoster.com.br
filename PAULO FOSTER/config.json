@@ -1,0 +1,142 @@
+{
+  "projectName": "Paulo H Foster — Estrategista de Marcas",
+  "version": "1.0.0",
+  "description": "Site profissional de portfólio para estrategista de marcas",
+  
+  "config": {
+    "appearance": {
+      "colors": {
+        "background": "#000000",
+        "surface": "#111111",
+        "text": "#ffffff",
+        "accent": "#ffffff",
+        "secondary": "#666666"
+      },
+      "font": {
+        "family": "DM Sans",
+        "baseSize": 16
+      }
+    },
+    
+    "content": {
+      "hero": {
+        "title": "Transformo marcas comuns em marcas que geram lucro.",
+        "subtitle": "Estratégia, posicionamento e construção de marca para quem quer crescer de verdade.",
+        "cta": "Falar comigo",
+        "backgroundImage": ""
+      },
+      
+      "problem": {
+        "title": "O problema não é o seu produto.",
+        "description": "A maioria das marcas não cresce porque está mal posicionada. Focam apenas no visual e ignoram estratégia."
+      },
+      
+      "solution": {
+        "title": "Marca forte vende mais.",
+        "description": "Eu transformo sua marca em uma ferramenta de crescimento real."
+      },
+      
+      "about": {
+        "name": "Paulo H Foster",
+        "title": "Estrategista de Marcas",
+        "bio": "Meu foco não é apenas estética. É construir marcas que geram resultado e posicionamento forte.",
+        "profileImage": ""
+      },
+      
+      "impact": {
+        "line1": "Design bonito chama atenção.",
+        "line2": "Marca estratégica gera dinheiro."
+      },
+      
+      "sections": {
+        "methodology": "Como funciona meu processo",
+        "testimonials": "Transformações que geraram resultado",
+        "faq": "Dúvidas frequentes"
+      }
+    },
+    
+    "social": {
+      "whatsapp": "",
+      "instagram": "",
+      "linkedin": "",
+      "email": ""
+    }
+  },
+  
+  "structure": {
+    "files": [
+      {
+        "name": "index.html",
+        "type": "HTML",
+        "description": "Arquivo principal com estrutura semântica"
+      },
+      {
+        "name": "styles.css",
+        "type": "CSS",
+        "description": "Estilos customizados e animações"
+      },
+      {
+        "name": "script.js",
+        "type": "JavaScript",
+        "description": "Lógica de aplicação e SDK"
+      },
+      {
+        "name": "config.json",
+        "type": "JSON",
+        "description": "Arquivo de configuração (este arquivo)"
+      },
+      {
+        "name": "README.md",
+        "type": "Markdown",
+        "description": "Documentação do projeto"
+      }
+    ]
+  },
+  
+  "sections": [
+    "navbar",
+    "hero",
+    "problem",
+    "solution",
+    "services",
+    "statistics",
+    "case-studies",
+    "recognition",
+    "presence",
+    "about",
+    "impact-phrase",
+    "testimonials",
+    "methodology",
+    "faq",
+    "cta-final",
+    "footer"
+  ],
+  
+  "features": [
+    "Responsive Design",
+    "Dark Mode",
+    "Smooth Animations",
+    "Intersection Observer",
+    "Accessibility Support",
+    "Fast Performance",
+    "Customizable Content",
+    "SDK Integration"
+  ],
+  
+  "dependencies": [
+    {
+      "name": "Tailwind CSS",
+      "version": "3.4.17",
+      "cdn": "https://cdn.tailwindcss.com/3.4.17"
+    },
+    {
+      "name": "Lucide Icons",
+      "version": "0.263.0",
+      "cdn": "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"
+    },
+    {
+      "name": "Google Fonts - DM Sans",
+      "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300&display=swap"
+    }
+  ]
+}
